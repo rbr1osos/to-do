@@ -1,5 +1,5 @@
 import { allList } from "./all";
-import './style.css';
+import '../style.css'
 
 function createTaskInfo(name){
     const selectedTask = allList.filter(e=>e.title.includes(name))

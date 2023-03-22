@@ -1,4 +1,4 @@
-import './style.css';
+import '../style.css'
 
 function createProjectPage(name){
     const content_container = document.createElement('div')

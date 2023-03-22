@@ -2,7 +2,7 @@ import {allList} from './all'
 import {displayList} from './createForm'
 import isToday from 'date-fns/isToday'
 import parseISO from 'date-fns/parseISO';
-import './style.css';
+import '../style.css'
 
 export let todayList=[];
 // const date =document.getElementById('todo-date')

@@ -2,7 +2,7 @@ import {allList} from './all'
 import {displayList} from './createForm'
 import isFuture from 'date-fns/isFuture';
 import parseISO from 'date-fns/parseISO';
-import './style.css';
+import '../style.css'
 
 export let upcomingList=[];
 function loadUpcomingDisplay(){

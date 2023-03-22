@@ -6,7 +6,7 @@ import isToday from 'date-fns/isToday'
 import isFuture from "date-fns/isFuture";
 import parseISO from 'date-fns/parseISO';
 import {loadTaskInfo} from './task-info'
-import './style.css';
+import '../style.css'
 
 import {setActiveButton} from './initial-page'
 

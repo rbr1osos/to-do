@@ -5,7 +5,7 @@ import loadProjectPage from './addProject'
 import {allList} from './all'
 import {todayList} from './today'
 import {upcomingList} from './upcoming'
-import 'src/style.css';
+import '../style.css'
 
 function createHeader(){
     const header = document.createElement('div')

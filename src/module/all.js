@@ -1,7 +1,8 @@
 import loadForm from "./createForm";
 import {displayList} from './createForm'
+import '../style.css'
+
 export let allList =[];
-import './style.css';
 
 
 function loadAllDisplay(){
